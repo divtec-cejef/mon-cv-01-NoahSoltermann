@@ -1,8 +1,63 @@
 body {
+    font-family: "Maven Pro", sans-serif;
     background: black;
     color: white;
 }
 
-h1 {
-    color: yellow;
+img {
+    max-width: 30%;
+    box-shadow: 20px 20px 40px rgba(0, 0, 0);
 }
+
+a {
+    max-width: 500px;
+}
+
+.liens {
+    color: #E4C1F9;
+}
+
+#subtitle {
+    text-align: center;
+    color: #E4C1F9;
+}
+
+#email {
+    color: aqua;
+}
+
+p {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: #D3BB41;
+}
+
+h2 {
+    text-align: center;
+    color: #9AD8B7;
+}
+
+li {
+    list-style-position: inside;
+}
+
+ul {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    height: auto;
+}
+
+
+.background {
+    background-image: url("/images/ville.png");
+    background-size : cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
