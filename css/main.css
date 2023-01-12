@@ -5,7 +5,7 @@ body {
 }
 
 img {
-    max-width: 30%;
+    max-width: 300px;
     box-shadow: 20px 20px 40px rgba(0, 0, 0);
 }
 
@@ -20,6 +20,10 @@ a {
 #subtitle {
     text-align: center;
     color: #E4C1F9;
+}
+
+.contenu {
+    color: #f7d9b9;
 }
 
 #email {
@@ -43,7 +47,6 @@ h2 {
 li {
     list-style-position: inside;
     text-align: center;
-    color: #f7d9b9;
 }
 
 header {
@@ -53,7 +56,7 @@ header {
 
 .background {
     background-image: url("/images/ville.png");
-    background-size : cover;
+    background-size: cover;
     background-attachment: fixed;
     background-position: center;
 }
