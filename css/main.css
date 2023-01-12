@@ -42,17 +42,14 @@ h2 {
 
 li {
     list-style-position: inside;
-}
-
-ul {
     text-align: center;
+    color: #f7d9b9;
 }
 
 header {
     text-align: center;
     height: auto;
 }
-
 
 .background {
     background-image: url("/images/ville.png");
