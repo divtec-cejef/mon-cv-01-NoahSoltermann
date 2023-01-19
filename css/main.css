@@ -1,6 +1,6 @@
 body {
     font-family: "Maven Pro", sans-serif;
-    background: black;
+    background-color: #000000;;
     color: white;
     margin: 0;
     min-height: 100vh;
@@ -11,38 +11,33 @@ body {
 }
 
 
-
 img {
-    --s: 20px;  /* size of the frame */
-    --b: 2px;   /* border thickness */
+    --s: 20px; /* size of the frame */
+    --b: 2px; /* border thickness */
     --w: 300px; /* width of the image */
     --c: #D3BB41;
 
     width: var(--w);
     aspect-ratio: 1;
     object-fit: cover;
-    padding: calc(2*var(--s));
-    --_g: var(--c) var(--b),#0000 0 calc(100% - var(--b)),var(--c) 0;
-    background:
-            linear-gradient(      var(--_g)) 50%/100% var(--_i,100%) no-repeat,
-            linear-gradient(90deg,var(--_g)) 50%/var(--_i,100%) 100% no-repeat;
-    outline: calc(var(--w)/2) solid #0009;
-    outline-offset: calc(var(--w)/-2 - 2*var(--s));
+    padding: calc(2 * var(--s));
+    --_g: var(--c) var(--b), #0000 0 calc(100% - var(--b)), var(--c) 0;
+    background: linear-gradient(var(--_g)) 50%/100% var(--_i, 100%) no-repeat,
+    linear-gradient(90deg, var(--_g)) 50%/var(--_i, 100%) 100% no-repeat;
+    outline: calc(var(--w) / 2) solid #0009;
+    outline-offset: calc(var(--w) / -2 - 2 * var(--s));
     transition: .4s;
     cursor: pointer;
 }
+
 img:hover {
     outline: var(--b) solid var(--c);
-    outline-offset: calc(var(--s)/-2);
-    --_i: calc(100% - 2*var(--s));
+    outline-offset: calc(var(--s) / -2);
+    --_i: calc(100% - 2 * var(--s));
 }
 
 a {
     max-width: 500px;
-}
-
-.liens {
-    color: #E4C1F9;
 }
 
 #subtitle {
@@ -51,11 +46,11 @@ a {
 }
 
 .contenu {
-    color: #f7d9b9;
+    color: antiquewhite;
 }
 
 #email {
-    color: aqua;
+    color: cornflowerblue;
 }
 
 p {
@@ -65,11 +60,13 @@ p {
 h1 {
     text-align: center;
     color: #D3BB41;
+    font-size: 45px;
 }
 
 h2 {
     text-align: center;
     color: #9AD8B7;
+    font-size: 30px;
 }
 
 li {
@@ -91,11 +88,11 @@ header {
 
 footer {
     align-items: center;
-    background-color: #262626;
+    background-color: dimgray;
     bottom: 0;
-    color: #666666;
+    color: #D3BB41;
     display: flex;
-    height: 35px;
+    height: 50px;
     justify-content: center;
     position: fixed;
     width: 100%;
@@ -108,10 +105,16 @@ footer {
 
 section {
     min-height: 100vh;
-    padding-bottom: 35px;
+    padding-bottom: 45px;
     position: absolute;
     width: 100%;
     z-index: 10;
+}
+
+.liens {
+    color: #9AD8B7;
+    text-transform: uppercase;
+    text-decoration: none !important;
 }
 
 
